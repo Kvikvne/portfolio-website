@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaikane Anderson</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/c52c9e0cb2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-minus" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-regular fa-plus" onclick="openmenu()"></i>
+          
+        </nav>
+        <div class="header_text">
+          <p>Python and Web Developer</p>
+          <h1><span>Kai</span>kane Anderson</h1>
+        </div>
+      </div>
+  </div>
+<!------------------- about ------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about_pic.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>Hi there! My name is Kaikane and I am a 25-year-old Python and web developer 
+            from Kauai, Hawaii. I recently moved to San Diego and am excited to start my career
+             in the tech industry. I am a self-taught programmer with a passion for creating 
+             innovative and useful software solutions. With strong skills in Python and web 
+             development, I am able to tackle a wide range of projects and am always eager to 
+             learn and improve my skills. In my free time, I enjoy exploring the beautiful city 
+             of San Diego and trying out new restaurants and activities. Thank you for visiting 
+             my portfolio website!</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Python Development</span> <br> - Experience with Python libraries and frameworks,
+                  <br> such as Scrapy, Plotly, Selenium, Flask, Pandas,<br> Matplotlib, and Beautiful Soup.
+                  <br> <br> - Ability to work with data, including reading and writing files
+                  <br> and using libraries like Pandas for data manipulation and analysis.</li>
+                <li><span>Web Development</span><br> - Strong knowledge of HTML, CSS, and JavaScript.
+                  <br> <br> - Familiarity with database technologies such as MySQL. 
+                  <br> <br> - Ability to write clean, well-documented code.</li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>December 2022 - Current</span>
+                  <br>- Developed and maintained web applications using languages such as HTML, CSS, JavaScript, and Python.
+                  <br>
+                  <br>- Worked with clients to gather requirements, design solutions, and deliver projects on time.
+                  <br>
+                  <br>- Implemented responsive design techniques to ensure compatibility with a variety of devices.
+                  <br>
+                  <br>- Utilized frameworks and libraries such as Scrapy, Plotly, Pandas, Flask, Django and Mysql.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>June 2022</span><br>Python Pro Bootcamp from Udemy</li>
+                <li><span>September 2022</span><br>Intro to Cybersecurity Tools & Cyber Attacks from IBM</li>
+                <li><span>October 2022</span><br>Cybersecurity Roles, Processes & Operating System Security from IBM</li>
+                <li><span>November 2022</span><br>Penetration Testing, Incident Response and Forensics from IBM</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------------services----------------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-selenium-original colored"></i>
+          <i class="devicon-pandas-original-wordmark colored"></i>
+          <i class="devicon-flask-original colored"></i>
+
+          <h2>Python Development</h2>
+          <p>I offer a range of programming services to businesses and organizations 
+            looking to build, improve, or maintain software using the Python language.
+             I am proficient in a variety of frameworks, libraries, and tools, and can handle projects of 
+             any size and complexity. My expertise covers a wide range of domains, 
+             including web development, data analysis, automation, and more. Whether 
+             you need a full-stack developer to build a web application from scratch, 
+             or a data scientist to analyze and visualize complex data sets, I can 
+             help you achieve your goals with high-quality, reliable code.</p>
+            
+        </div>
+        <div>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <h2>Web Development</h2>
+          <p>I am proficient in a variety of programming languages and frameworks,
+             and can handle projects of any size and complexity. Whether you need
+              a simple one-page website or a complex web application, I can help 
+              you bring your vision to life with clean, efficient, and responsive 
+              code. In addition to building new websites, I also offer services 
+              such as website updates, redesigns, and maintenance to keep your 
+              site running smoothly and up-to-date.</p>
+            
+        </div>
+        <!-- <div>
+          <i class="fa-brands fa-uikit"></i>
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua. Convallis a cras semper auctor neque vitae.</p>
+            <a href="#">Learn more</a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+<!-- ------------------------------------Portfolio ---------------------------------  -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="Images/work-1.png">
+        <div class="layer">
+          <h3>San Diego Dive Club Website</h3>
+          <p>The website is a resource for members of the San Diego Dive Club, providing them with 
+            information about upcoming dive trips, meetings, and events. It also features a section 
+            for club news and announcements. The website has a clean and modern design, making it 
+            easy for users to navigate and find the information they are looking for. Overall, it 
+            is a valuable resource for the members of the San Diego Dive Club, helping them stay 
+            connected and informed about all the club's activities and opportunities.</p>
+          <a href="http://sandiegodiveclub.com/" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Images/work-2.png">
+        <div class="layer">
+          <h3>Banking Script</h3>
+          <p>This script is designed to sort, categorize, and organize transactions from a CSV file 
+            of bank data. It uses the Google API to input the processed data into a Google Sheets file,
+             allowing for easy and convenient access and analysis. With this script, you can easily keep
+              track of your financial transactions and gain a better understanding of your spending 
+              habits.</p>
+          <a target="_blank" href="https://github.com/Kvikvne/personal_banking_app"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Images/newplot (2).png">
+        <div class="layer">
+          <h3>Web Scraper and Data Visualizer</h3>
+          <p>This script uses the Scrapy library to scrape data from a website and store it in a 
+            Pandas dataframe. The data is then cleaned and transformed as needed before being 
+            passed to Plotly for visualization. The final visualizations are displayed in a 
+            web-based interface, allowing users to easily explore and analyze the data. 
+            This script is a powerful tool for extracting, cleaning, and visualizing data from 
+            the web.
+          </p>
+          <a target="_blank" href="https://github.com/Kvikvne/web-scraper-and-data-visualizer"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/Kvikvne" target="_blank" class="btn">View more</a>
+  </div>
+</div>
+<!-- -------------------------------contact----------------------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-regular fa-envelope"></i>kaianderson9@gmail.com</p>
+        <div class="social-icons">
+          <a target="_blank" href="https://www.instagram.com/kvikvne/"><i class="fa-brands fa-instagram"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/kaikane-anderson-031b67235/"><i class="fa-brands fa-linkedin"></i></a>
+          <a target="_blank" href="https://soundcloud.com/pvrvdise_music"><i class="fa-brands fa-soundcloud"></i></a>
+        </div>
+        <a target="_blank" href="Images/Resume 10_22 .docx (2).pdf" download class="btn btn2">Download My Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Name" required>
+          <input type="email" name="Email" placeholder="Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  
+  </script>
+  <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwxpj2oUrODdALW8REOmjcmfr1JOdlhs8rbmhCa83HcphbXQlQe0OuPLnGydQzlLYaY/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      msg.innerHTML = "Your message has been sent"
+      setTimeout(function(){
+          msg.innerHTML = ""  
+      },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+<footer>
+  <div class="copyrite">
+    <p>Copyrite Ⓒ Kaikane Anderson. </p>
+  </div>
+</footer>
+</html>
