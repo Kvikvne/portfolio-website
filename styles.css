@@ -87,11 +87,13 @@ nav ul li a:hover::after{
 }
 .about-col-2{
     flex-basis: 60%;
+    line-height: 1.4em;
 }
 .sub-title{
     font-size: 60px;
     font-weight: 600;
     color: rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 .tab-titles{
     display: flex;
@@ -121,7 +123,11 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    
+    line-height: 1.4em;
+    background-color: #E8E8E8;
+    width: 60%;
+    border-radius: 3px;
+    padding: 10px;
 }
 .tab-contents ul li span{
     color: #495464;
@@ -324,13 +330,13 @@ nav .fa-regular{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(Images/phone-background.png);
+        background-image: url(images/phone-background.png);
         background-attachment: scroll;
     }
     .header_text{
-        margin-top: 100%;
+        margin-top: 65%;
         font-size: 16px;
-        margin-bottom: 50%;
+        margin-bottom: 80%;
     }
     .header_text h1{
         font-size: 30px;
@@ -349,6 +355,9 @@ nav .fa-regular{
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
+    }
+    .tab-contents ul li{
+        width: 100%;
     }
     
     nav ul li{
